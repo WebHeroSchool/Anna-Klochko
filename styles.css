@@ -4,12 +4,13 @@
 }
 
 .main-content__subtitle {
-  font-family: 'Roboto';
+  font-family: 'robotoregular';
 }
 
 .main-content__button {
-  font-family: 'Roboto';
+  font-family: 'robotomedium';
 }
+
 .logo {
   width: 190px;
   height: 35px;
@@ -18,11 +19,12 @@
 
 .main-content__title {
   font-family: 'PT Serif';
-}
+  }
 
 body {
   margin: 0;
 }
+
 .header, .main__section {
   padding: 40px 0;
   margin: auto;

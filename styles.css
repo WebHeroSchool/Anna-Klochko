@@ -11,7 +11,7 @@ body {
 
 .header {
   padding: 40px 0;
-  margin-bottom: 203px;
+  margin-bottom: 128px;
   display: flex;
   justify-content: space-between;
 }
@@ -72,7 +72,7 @@ width: 100%;
 }
 
 .main {
-  padding: 0 70% 200px 0;
+  padding: 75px 70% 200px 0;
   padding-right: 70%;
   background: top right no-repeat url('img/image2.svg');
 }

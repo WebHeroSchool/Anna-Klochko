@@ -73,7 +73,7 @@ body {
 }
 
 .main {
-  padding: 75px 70% 200px 0;
+  padding: 75px 70% 241px 0;
   padding-right: 70%;
   background: top right no-repeat url('img/image2.svg');
 }
@@ -107,4 +107,11 @@ body {
 
 .main__button:hover {
   opacity: 0.5;
+}
+
+.points {
+  padding: 0 39%;
+  width: 32px;
+  height: 8px;
+  background: no-repeat url('img/points.svg');
 }

@@ -103,6 +103,7 @@ body {
   text-decoration: none;
   border-radius: 4px;
   transition: 0.5s;
+
 }
 
 .main__button:hover {
@@ -118,6 +119,20 @@ body {
 
 .menu__box {
   display: none;
+}
+
+#checkbox {
+  display: none;
+}
+
+@keyframes color {
+  to {
+    background: linear-gradient(to top, #52d2bc 78%, #fff 22%);
+  }
+}
+
+.main__title-text_highlight:hover {
+  animation: color .3s infinite linear;
 }
 
 @media (max-width:1366px) {

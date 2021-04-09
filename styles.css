@@ -121,8 +121,8 @@ body {
   display: none;
 }
 
-#checkbox {
-  display: none;
+#menu__toggle {
+  opacity: 0;
 }
 
 @keyframes color {
@@ -132,10 +132,10 @@ body {
 }
 
 .main__title-text_highlight:hover {
-  animation: color .3s infinite linear;
+  animation: color 0.3s infinite linear;
 }
 
-@media (max-width:1366px) {
+@media (max-width: 1366px) {
 .wrapper {
   padding: 0 218px;
   max-width: 930px;
@@ -185,16 +185,16 @@ body {
   padding: 14px 20px;
  }
 
- #checkbox {
-   display: none;
- }
+ #menu__toggle {
+  opacity: 0;
+}
 
  .menu__box {
    display: none;
  }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
 .wrapper {
   padding: 0 46px;
   max-width: 931px;
@@ -244,8 +244,8 @@ body {
   padding: 14px 20px;
 }
 
-#checkbox {
-  display: none;
+#menu__toggle {
+  opacity: 0;
 }
 
 .menu__box {
@@ -253,13 +253,15 @@ body {
  }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 .wrapper {
   margin: auto;
 }
 
 .header {
-  margin: 24px 0 28px 0;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 28px;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -305,19 +307,90 @@ body {
 .main__button {
   font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
   padding: 14px 20px;
- }
+}
 
- #checkbox {
-   display: none;
- }
+.menu__box {
+  display: initial;
+}
 
- #checkbox:checked ~ .menu__box {
-   border: 3px solid green;
- }
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 32px;
+  right: 24px;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  z-index: 1;
+}
 
- .menu__box {
-   width: 25px;
-   height: 17px;
-   border: 3px solid red;
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #0056ec;
+  transition: opacity 0.5s;
+}
+
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__box {
+  margin: auto;
+  padding: 186px 0 205px 0;
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 100% ;
+  height: 100%;
+  list-style: none;
+  text-align: center;
+  background-color: #fff;
+  transition: opacity 0.5s;
+}
+
+.menu__item__box {
+  display: block;
+  margin-bottom: 24px;
+  color: #000;
+  font: 30px/35px 'robotomedium', arial, helvetica, sans-serif;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.menu__item__box:hover {
+  opacity: 0.5;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
  }
 }

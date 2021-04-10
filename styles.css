@@ -29,7 +29,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 28px;
   font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -73,8 +73,7 @@ body {
 }
 
 .main {
-  padding: 75px 70% 241px 0;
-  padding-right: 70%;
+  padding: 75px 70% 269px 0;
   background: top right no-repeat url('img/image2.svg');
 }
 
@@ -96,14 +95,13 @@ body {
 
 .main__button {
   display: inline-block;
-  font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+  font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
   color: #fff;
   background: no-repeat #0056ec;
   padding: 18px 34px 17px 21px;
   text-decoration: none;
   border-radius: 4px;
   transition: 0.5s;
-
 }
 
 .main__button:hover {
@@ -111,7 +109,7 @@ body {
 }
 
 .points {
-  margin: 0 auto;
+  margin: auto;
   width: 32px;
   height: 8px;
   background: no-repeat url('img/points.svg');
@@ -148,7 +146,7 @@ body {
 }
 
 .menu__item {
-  margin-right: 25px;
+  margin-right: 29px;
   font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
 }
 
@@ -161,8 +159,7 @@ body {
 }
 
 .main {
-  padding: 15px 68% 200px 0;
-  padding-right: 68%;
+  padding: 15px 68% 147px 0;
   background: top right no-repeat url('img/image1366.svg');
 }
 
@@ -182,7 +179,7 @@ body {
 
 .main__button {
   font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
-  padding: 14px 20px;
+  padding: 14px 25px 13px 16px;
  }
 
  #menu__toggle {
@@ -207,7 +204,7 @@ body {
 }
 
 .menu__item {
-  margin-right: 25px;
+  margin-right: 26px;
   font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
 }
 
@@ -220,8 +217,7 @@ body {
 }
 
 .main {
-  padding: 15px 57% 200px 0;
-  padding-right: 57%;
+  padding: 15px 57% 147px 0;
   background: top right no-repeat url('img/image1024.svg');
 }
 
@@ -241,7 +237,7 @@ body {
 
 .main__button {
   font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
-  padding: 14px 20px;
+  padding: 14px 25px 13px 16px;
 }
 
 #menu__toggle {
@@ -255,13 +251,12 @@ body {
 
 @media (max-width: 768px) {
 .wrapper {
-  margin: auto;
+  max-width: 87%;
+  padding: 0;
 }
 
 .header {
-  margin: auto;
-  margin-top: 24px;
-  margin-bottom: 28px;
+  margin: 24px auto 28px;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -279,25 +274,22 @@ body {
 
 .main {
   text-align: center;
-  padding: 85% 0 0 0;
+  padding: 74% 0 0 0;
   background: top center no-repeat url('img/imagemobile.svg');
 }
 
 .main__title {
-  margin: auto;
-  margin-top: 32px;
-  margin-bottom: 44px;
+  margin: 18px auto 44px;
   font: 30px/40px 'pt_serifbold', arial, helvetica, sans-serif;
-  max-width: 267px;
-  max-height: 96px;
+  max-width: 268px;
+  max-height: 108px;
 }
 
 .main__subtitle {
-  margin: auto;
-  margin-bottom: 25px;
+  margin: 0 auto 34px;
   font: 16px/19px 'robotomedium', arial, helvetica, sans-serif;
-  width: 275px;
-  height: 57px;
+  max-width: 238px;
+  max-height: 57px;
 }
 
 .points {
@@ -306,7 +298,7 @@ body {
 
 .main__button {
   font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
-  padding: 14px 20px;
+  padding: 14px 25px 13px 16px;
 }
 
 .menu__box {
@@ -331,7 +323,7 @@ body {
   display: block;
   position: absolute;
   width: 100%;
-  height: 3px;
+  height: 4px;
   background-color: #0056ec;
   transition: opacity 0.5s;
 }
@@ -343,7 +335,7 @@ body {
 
 .menu__btn > span::after {
   content: '';
-  top: 8px;
+  top: 7px;
 }
 
 .menu__box {
@@ -364,7 +356,7 @@ body {
 
 .menu__item__box {
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   color: #000;
   font: 30px/35px 'robotomedium', arial, helvetica, sans-serif;
   text-decoration: none;

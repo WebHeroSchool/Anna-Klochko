@@ -1,4 +1,4 @@
-body {margin: 0;}
+body { margin: 0; }
 
 .wrapper {
   padding: 0 189px;
@@ -34,7 +34,7 @@ body {margin: 0;}
   transition: opacity 0.5s;
 }
 
-.menu__item:last-child {margin-right: 0;}
+.menu__item:last-child { margin-right: 0; }
 
 .menu__item::after {
   position: absolute;
@@ -58,7 +58,7 @@ body {margin: 0;}
   background: #0056ec;
 }
 
-.menu__item:hover {opacity: 0.5;}
+.menu__item:hover { opacity: 0.5; }
 
 .menu__item:hover::after,
 .menu__item_active::after {
@@ -78,7 +78,7 @@ body {margin: 0;}
   height: 255px;
 }
 
-.main__title-text_highlight {background: linear-gradient(to top, #ecf3ff 78%, #fff 22%);}
+.main__title-text_highlight { background: linear-gradient(to top, #ecf3ff 78%, #fff 22%); }
 
 .main__subtitle {
   margin: 0 0 41px 0;
@@ -96,7 +96,7 @@ body {margin: 0;}
   transition: 0.5s;
 }
 
-.main__button:hover {opacity: 0.5;}
+.main__button:hover { opacity: 0.5; }
 
 .points {
   margin: auto;
@@ -105,9 +105,9 @@ body {margin: 0;}
   background: no-repeat url('img/points.svg');
 }
 
-.menu__box {display: none;}
+.menu__box { display: none; }
 
-#menu__toggle {opacity: 0;}
+#menu__toggle { opacity: 0; }
 
 @keyframes color {
   to {
@@ -134,9 +134,9 @@ body {margin: 0;}
     font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
   }
 
-  .menu__item::after {height: 2px;}
+  .menu__item::after { height: 2px; }
 
-  .menu__item_active::after {height: 2px;}
+  .menu__item_active::after { height: 2px; }
 
   .main {
     padding: 15px 68% 147px 0;
@@ -162,9 +162,9 @@ body {margin: 0;}
     padding: 14px 25px 13px 16px;
    }
 
-   #menu__toggle {opacity: 0;}
+   #menu__toggle { opacity: 0; }
 
-   .menu__box {display: none;}
+   .menu__box { display: none; }
 }
 
 @media (max-width: 1024px) {
@@ -184,9 +184,9 @@ body {margin: 0;}
     font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
   }
 
-  .menu__item::after {height: 2px;}
+  .menu__item::after { height: 2px; }
 
-  .menu__item_active::after {height: 2px;}
+  .menu__item_active::after { height: 2px; }
 
   .main {
     padding: 15px 57% 147px 0;
@@ -212,9 +212,9 @@ body {margin: 0;}
     padding: 14px 25px 13px 16px;
   }
 
-  #menu__toggle {opacity: 0;}
+  #menu__toggle { opacity: 0; }
 
-  .menu__box {display: none;}
+  .menu__box { display: none; }
 }
 
 @media (max-width: 768px) {
@@ -236,7 +236,7 @@ body {margin: 0;}
     background: url('img/logomobile.svg');
   }
 
-  .menu {display: none;}
+  .menu { display: none; }
 
   .main {
     text-align: center;
@@ -258,14 +258,14 @@ body {margin: 0;}
     max-height: 57px;
   }
 
-  .points {display: none;}
+  .points { display: none; }
 
   .main__button {
     font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
   }
 
-  .menu__box {display: initial;}
+  .menu__box { display: initial; }
 
   .menu__btn {
     display: flex;
@@ -325,9 +325,9 @@ body {margin: 0;}
     transition: opacity 0.5s;
   }
 
-  .menu__item__box:hover {opacity: 0.5;}
+  .menu__item__box:hover { opacity: 0.5; }
 
-  #menu__toggle:checked ~ .menu__btn > span {transform: rotate(45deg);}
+  #menu__toggle:checked ~ .menu__btn > span { transform: rotate(45deg); }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;

@@ -119,7 +119,6 @@ body { margin: 0; }
 .main__title-text_highlight:hover { animation: color 0.3s infinite linear; }
 
 @media (max-width: 1366px) {
-
   .wrapper {
     padding: 0 218px;
     width: 930px;
@@ -166,15 +165,12 @@ body { margin: 0; }
     padding: 14px 25px 13px 16px;
   }
 
-   #menu__toggle {
-      opacity: 0;
-  }
+  #menu__toggle { opacity: 0; }
 
-   .menu__box { display: none; }
+  .menu__box { display: none; }
   }
 
 @media (max-width: 1024px) {
-
   .wrapper {
     padding: 0 46px;
     width: 931px;

@@ -120,7 +120,6 @@ body { margin: 0; }
 
 @media (max-width: 1366px) {
 
-
   .wrapper {
     padding: 0 218px;
     width: 930px;
@@ -165,16 +164,17 @@ body { margin: 0; }
   .main__button {
     font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
-   }
+  }
 
    #menu__toggle {
       opacity: 0;
-   }
+  }
 
    .menu__box { display: none; }
-}
+  }
 
 @media (max-width: 1024px) {
+
   .wrapper {
     padding: 0 46px;
     width: 931px;
@@ -189,6 +189,7 @@ body { margin: 0; }
   .menu {
     margin: 4px 1px 0 0;
   }
+
   .menu__item {
     margin-right: 26px;
     font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
@@ -314,7 +315,6 @@ body { margin: 0; }
     display: initial;
     margin: auto;
     padding: 186px 0 205px 0;
-    display: block;
     position: fixed;
     visibility: hidden;
     top: 0;

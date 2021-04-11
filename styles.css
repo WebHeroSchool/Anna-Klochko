@@ -355,5 +355,5 @@ body { margin: 0; }
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
-}
+ }
 }
